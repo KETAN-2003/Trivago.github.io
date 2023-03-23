@@ -1,0 +1,102 @@
+.first{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.text{
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.contain{
+    margin-top: 12.8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+.tab1{
+    width: 100%;
+    height: auto;
+    padding-left:30px; 
+}
+.buttoncontain1{
+    height: 5%;
+    border-bottom: 1px gray solid;
+    width: 1130px;
+}
+
+.buttoncontain1 button{
+    margin-right: 5px;
+}
+.tab1 .buttoncontain1 button{
+    width: auto;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #7A8082;
+    font-weight: 700;
+}
+.tab1 .buttoncontain1 button:hover{
+    background-color: antiquewhite;
+}
+.tab1 .buttoncontain1 button:hover{
+    color: black;
+}
+.tabpanel1{
+    height: auto;
+    /*background-color: whitesmoke;
+    color: white;*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: none;
+    margin: 1px;
+}
+.buttoncontain1 button{
+    color: navajow;
+    text-decoration: none;
+}
+/*.buttoncontain a:hover,{
+    color: blue;
+    text-decoration: underline;
+}*/
+.buttoncontain1 button:focus{
+    border-bottom: 2px #007CC2 solid;
+    color: #007CC2;
+}
+.overflow-hidden{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 62%
+}
+.list3{
+    display: flex;
+    list-style: none;
+    overflow:auto;
+    padding: 0px;
+    width: 100%;
+}
+.list-item{
+    padding-right: 3%;
+}
+.last{
+    padding-right: 0px;
+}
+.list-item h3{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+span{
+    font-size: .9rem;
+}

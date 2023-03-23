@@ -1,0 +1,276 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="resorces/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="trivigo login page/trivigo login page/img/logo.jpg">
+    <title>Trivago demo</title>
+</head>
+    <body>
+        
+        <nav class="main-nav">
+            <div class="new">
+                    <div class="right">
+                        <ul class="list">
+                
+                    <li><a href="#">My favourites</a></li>
+					
+                    <li><a href="#"><select name="support" class="support">
+                        <option value="" disabled selected hidden>MENU</option>
+                        <option>Recently viewed</option>
+                        <option>Help and support</option></select></a></li>
+
+                    <li><a href="#"><select>
+                        <option>JOD - Jordanian Dinar</option>
+                        <option>JPY - Japanese Yen</option>
+                        <option>KRW - S. Korean Won</option>
+                        <option>KWD - Kuwaiti Dinar</option>
+                        <option>KZT - Kazakhstani Tenge</option>
+                        <option>LBP - Lebanese pound</option>
+                        <option>MAD - Morocco Dirhams</option>
+                        <option>INR - Indian Ruppes</option>
+                    </select></a></li>
+					<li><a href="resorces/trivigo login page/login_page.php">logout</a></li>
+                </ul>
+                </div>
+                    <!--<div class="left">
+                        <ul class="list2">
+                            <li><a href="#">Stays</a></li>
+                            <li><a href="#">Car</a></li>
+                            <li><a href="#">Flight</a></li>
+                            <li><a href="#">Packages</a></li>
+                        </ul>
+                    </div>-->
+            </div>
+        </nav>
+    <main>
+        <div class="first trivago">
+           <div class="first1">
+           <div class="second">
+                <p><span style="color:#1391D2" class="span1">tri</span><span style="color:#FC9E15" class="span1">va</span><span style="color: #E3403D" class="span1">go</span></p>
+           </div>
+           <div class="second1">
+            <h3>Deals from your favourite booking sites</h3>
+            <p>Try searching for a city, a specific hotel, or even a landmark!</p>
+           </div>
+           </div>
+        </div>
+        
+        <div class="first">
+            <div class="tab">
+                <div class="buttoncontain">
+                    
+                <button onclick="showPanel(0)"><a href="#">ALL Stays</a></button>
+                <button onclick="showPanel(1)"><a href="#">Hotel</a></button>
+                <button onclick="showPanel(2)"><a href="#">House / Apartment</a></button>
+                </div>
+            <div class="tabpanel"><form class="form">
+                <input type="text" placeholder="type your destination 0">
+                <input placeholder="check in" class="textbox-n" type="text" onFocus="(this.type='date')">&nbsp;&nbsp;
+                <input placeholder="check out" class="textbox-n" type="text" onFocus="(this.type='date')">
+                <button class="search">search</button>
+            </form></div>
+            <div class="tabpanel"><form class="form">
+                <input type="text" placeholder="type your destination 1">
+                <input placeholder="check in" class="textbox-n" type="text" onFocus="(this.type='date')">&nbsp;&nbsp;
+                <input placeholder="check out" class="textbox-n" type="text" onFocus="  (this.type='date')">
+                <button class="search">search</button>
+            </form></div>
+            <div class="tabpanel"><form class="form">
+                <input type="text" placeholder="type your destination 2">
+                <input placeholder="check in" class="textbox-n" type="text" onFocus="(this.type='date')">&nbsp;&nbsp;
+                <input placeholder="check out" class="textbox-n" type="text" onFocus="(this.type='date')">
+                <button class="search">search</button>
+            </form></div>
+            </div>
+        <div class="some">
+            <p>We compare multiple booking sites at once</p>
+        </div>
+        <div class="image">
+            <ul class="img">
+                <li><img src="resorces/img/agada.png" class="img1"/> </li>
+                <li><img src="resorces/img/hotels.png" class="img1"/></li>
+                <li><img src="resorces/img/booking.png" class="img1"/></li>
+                <li><img src="resorces/img/makemytrip.png" class="img1"/></li>
+                <li><img src="resorces/img/all.png" class="img1"/></li>
+                <li><img src="resorces/img/trip.png" class="img1"/></li>
+                <li><img src="resorces/img/oyo.png" class="img1"/></li>
+                <li><p style="width: 100px" class="imgp1">+100 more</p></li>
+            </ul>
+        </div>
+        </div>
+        <div class="first">
+            <div class="contain">
+            <h1 class="text">These top destinations are just a click away</h1>
+            </div>
+            <div class="tab1">
+                <div class="buttoncontain1">  
+                <button onClick="showPanel1(0)" autofocus>Top Cities</button>
+                <button onClick="showPanel1(1)">Top Destination</button>
+                </div>
+            <div class="tabpanel1">
+                <div class="overflow-hidden">
+                    <ul class="list3">
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/taz%20hotel.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in mumbai</h3>
+                                <span>10,111 hotels
+                                    <strong>Avg. ₹4,900</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/jaipur.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Jaipur</h3>
+                                    <span>8,013 hotels
+                                    <strong>Avg. ₹3,082</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/delhi.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Delhi</h3>
+                                    <span>19,100 hotels
+                                    <strong>Avg. ₹2,689</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/hyderabad.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Hyderabad</h3>
+                                    <span>6,871 hotels
+                                    <strong>Avg. ₹3,675</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/bengluru.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Bengaluru</h3>
+                                    <span>13,446 hotels
+                                    <strong>Avg. ₹2,954</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                            <li class="list-item last">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/udaipur.jpeg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Udaipur</h3>
+                                    <span>4,523 hotels
+                                    <strong>Avg. ₹3,683</strong>
+                                    </span>
+                                </a>
+                            </article>
+                                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tabpanel1">
+                <div class="overflow-hidden">
+                    <ul class="list3">
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/goa.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Goa</h3>
+                                <span>34,242 hotels
+                                    <strong>Avg. ₹4,435</strong>
+                                    </span>
+                                </a>
+                            </article>
+                            
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/pondicherry.webp" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Pondicherry</h3>
+                                    <span>4,138 hotels
+                                    <strong>Avg. ₹2,969</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/maldives.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Maldives</h3>
+                                    <span>3,285 hotels
+                                    <strong>Avg. ₹20,837</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <li class="list-item last">
+                            <article>
+                                <a>
+                                <img src="resorces/img/hotels/bali.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals in Bali</h3>
+                                    <span>65,563 hotels
+                                    <strong>Avg. ₹14,277</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>
+                        <!--<li class="list-item">
+                            <article>
+                                <a>
+                                <img src="img/ketan.jpg" alt="sry" height="256px" width="256px">
+                                <h3>hotals of mumbai</h3>
+                                    <span>10,111 hotels
+                                    <strong>Avg. ₹3,565</strong>
+                                    </span>
+                                </a>
+                            </article>
+                        </li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <section class="first">
+            <div class="contain1">
+                <div class="section">
+                    <h3>trivago's global hotel search</h3>
+                    <span>trivago’s hotel search allows users to compare hotel prices in just a few clicks from more than 300 booking sites for more than 5.0 million hotels and other types of accommodation in over 190 countries. We help millions of travelers each year compare deals for hotels and accommodations. Get information for weekend trips to cities like Mumbai or Bengaluru and you can find the right hotel on trivago quickly and easily. Delhi and its surrounding area are great for trips that are a week or longer with the numerous hotels available.</span>
+                </div>
+                <div class="section">
+                    <h3>Find cheap hotels on trivago</h3>
+                    <span>With trivago you can easily find your ideal hotel and compare prices from different websites. Simply enter where you want to go and your desired travel dates, and let our hotel search engine compare accommodation prices for you. To refine your search results, simply filter by price, distance (e.g. from the beach), star category, facilities and more. From budget hostels to luxury suites, trivago makes it easy to book online. You can search from a large variety of rooms and locations across India, like Shimla and Jaipur to popular cities and holiday destinations abroad!</span>
+                </div>
+                <div class="section"><!--indiadis-->
+                    <h3>Hotel reviews help you find your ideal hotel</h3>
+                    <span>Over 175 million aggregated hotel ratings and more than 19 million images allow you to find out more about where you're travelling. To get an extended overview of a hotel property, trivago shows the average rating and extensive reviews from other booking sites, e.g. Hotels.com, Expedia, Agoda, leading hotels, etc. trivago makes it easy for you to find information about your trip to Dubai, including the ideal hotel for you.</span>
+                </div>
+                <div class="section">
+                    <h3>How to book</h3>
+                    <span>trivago is a hotel search with an extensive price comparison. The prices shown come from numerous hotels and booking websites. This means that while users decide on trivago which hotel best suits their needs, the booking process itself is completed through the booking sites (which are linked to our website). By clicking on the “view deal” button, you will be forwarded onto a booking site where you can complete the reservation for the hotel deal found on trivago.</span><br><br>
+                    <span>Let trivago help you to find the right price from over 300 booking sites!</span>
+                </div>
+                <div class="section">
+                    
+                
+                </div>
+            </div>
+        </section>
+        
+    </main>
+        <script src="resorces/js/javascript.js"></script>
+    </body>
+</html>

@@ -1,0 +1,272 @@
+.part1{
+    text-align: center;
+}
+        /* LOGO */
+.logo{
+    padding-left: 580px;
+    padding-top: 60px;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+}
+
+.logo1{
+   color: #1391d2;
+   
+}
+
+.logo2{
+    color: #fc9e15;
+}
+
+.logo3{
+    color: #e3403d;
+}
+
+.log{
+    padding-top: 50px;
+    padding-right: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log > .log2{
+    padding-right: 185px;
+}
+
+/* EMAIL ID */
+
+.emailtext{
+    padding-top: 30px;
+    padding-right: 220px;
+}
+
+.email{
+    margin-top: 10px;
+    width: 22%;
+    margin-right: 10px;
+    height: 38px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    font-size: 15px;
+}
+
+.email:focus{
+   outline: none;
+   border: 1px solid #1391d2;
+   caret-color: #1391d2;
+}
+
+.button{
+    margin-top: 20px;
+    width: 22%;
+    margin-right: 10px;
+    color: white;
+    background-color: #007cc2;
+    height: 45px;
+    border-radius: 6px;
+    border: #007cc2;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:#0D5DAD;
+}
+
+.feild{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 20%;
+    margin-left: 39%;
+    margin-top: 15px;
+}
+
+.or{
+    color: #afaca9;
+}
+
+ .googaltext{
+    height: 45px;
+    border: 0.8px solid black;
+    font-weight: bolder;
+    text-align: center;
+    width:22%;
+    border-radius: 8px;
+    background-image: url(img/googal\ logo.webp);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: white;
+ }
+
+ .googaltext:hover{
+    color: white;
+       background-color: rgb(147, 143, 143);   
+ }
+
+ .appletext{
+    height: 45px;
+    border: 0.8px solid black;
+    font-weight: bolder;
+    text-align: center;
+    width:22%;
+    border-radius: 8px;
+    background-image: url(img/apple\ logo.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 18px;
+    background-color: white;
+ }
+
+ .appletext:hover{
+    color:white;
+       background-color: rgb(147, 143, 143);   
+ }
+
+ .facebooktext{
+    height: 45px;
+    border: 0.8px solid black;
+    font-weight: bolder;
+    text-align: center;
+    width:22%;
+    border-radius: 8px;
+    background-image: url(img/facebbok\ logo.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 18px;
+    background-color: white;
+ }
+
+ .facebooktext:hover{
+    color:white;
+       background-color: rgb(147, 143, 143);   
+ }
+ 
+ .header1{
+    width: 22%;
+    margin: auto;
+    padding-right: 32px;
+ }
+
+ /*.header2{
+    padding-right: 175px;
+ }*/
+
+ .colortext{
+    color: rgb(102, 102, 242);
+ }
+
+ /* page 2 password */
+
+.create{
+ padding-top: 50px;
+ padding-left: 25px;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.create2{
+    padding-right: 85px;
+}
+
+
+
+.passicon{
+    padding-top: 40px;
+    display: flex;
+    margin: auto;
+    transform: translate(500px);
+}
+
+.eyeicon{
+     border-color: black;
+     cursor: pointer;
+     padding-left: 250px;
+}
+
+.eyeicon:focus{
+   outline: none;
+   border: 1px solid #1391d2;
+   caret-color: #1391d2;
+}
+
+
+.password{
+    margin-top: 10px;
+    width: 25%;
+    height: 43px;
+    border-radius: 8px;
+    border-width: 0.5px;
+    font-size: 15px;
+    font-size: 20px;
+}
+
+.password:focus{
+   outline: none;
+   border: 1px solid #1391d2;
+   caret-color: #1391d2;
+}
+
+.text1{
+    padding-right: 50px;
+    color: #353433;
+}
+
+/*
+.text2{
+    color:  #504e4d;
+}
+.text2-1{
+    padding-right: 130px;
+}
+
+.text2-2{
+    padding-left: 90px;
+}
+
+.text3{
+    color:  #504e4d;
+    margin-top: 10px;
+}
+.text3-1{
+    padding-right: 110px;
+}
+
+.text3-2{
+    padding-left: 90px;
+}
+*/
+
+.createbutton{
+        margin-top: 10px;
+        width: 24%;
+        color: white;
+        background-color: #007cc2;
+        height: 48px;
+        border-radius: 6px;
+        border: #007cc2;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-left: 33px;
+    }
+    
+    .createbutton:hover{
+        background-color:#0D5DAD;
+    }

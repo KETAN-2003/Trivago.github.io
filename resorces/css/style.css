@@ -1,0 +1,311 @@
+*{
+    font-family: sans-serif;
+}
+html{
+    background-color: #fff;
+    color: #262626;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+h1,h2,h3{
+    margin: 0px;
+}
+.first{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.list{
+    float: right;
+    list-style: none;
+    margin: auto;
+}
+.list li{
+    margin-left: 20px;
+    display: inline-block;
+}
+/*.list2{
+    list-style: none;
+    margin: 10px;
+}
+.list2 li{
+    display: inline-block;
+}
+.list2 li:first-child{
+    margin-left: 85px;
+}*/
+select{
+    border-style: none;
+    background-color: white;
+    font-size: 15px;
+}
+.support:first-child{
+    width: 70px;
+    list-style-position: inside;
+}
+.list li a:link,
+.list li a:visited{
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    
+}
+.list li a:hover,
+.list li a:active{
+	background-color:antiquewhite;
+}
+/*.list2 li a:link,
+.list2 li a:visited{
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    font-size: 90%;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    
+}
+.list2 li a:hover,
+.list2 li a:active{
+	background-color:antiquewhite;
+}*/
+.main-nav{
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.new{
+    height: 25px;
+}
+.second p{
+    
+    margin-top: 45px;
+    margin-left:35px;
+    margin-bottom: 10px;    
+}
+.span1{
+    font-size: 50px;
+    font-weight: 750;
+}
+.first1{
+    display: flex;
+}
+.trivago{
+    margin-bottom: 80px;
+}
+.second1{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.second1 p{
+    margin-top: 8px;
+}
+.tab{
+    width: 100%;
+    height: auto;
+    padding-left:30px; 
+}
+.buttoncontain{
+    height: 5%;
+}
+.buttoncontain button{
+    margin-right: 5px;
+}
+.tab .buttoncontain button{
+    width: auto;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: #E7F4FA;
+    border-radius: 20px 20px 3px 3px;
+}
+.tab .buttoncontain button:hover{
+    
+}
+.tabpanel{
+    height: auto;
+    background-color: whitesmoke;
+    color: white;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: none;
+    margin: 1px;
+}
+.buttoncontain a{
+    color: black;
+    text-decoration: none;
+}
+.buttoncontain a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.form input{
+    width: 25%;
+    height: 7%;
+    border-radius: 7px;
+    border: none;
+}
+.search{
+    width: 10%;
+    height: 8%;
+    border-radius: 10px;
+    background-color: #007CC2;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+.search:hover{
+    background-color: lightblue;
+}
+.some{
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding-left: 35px;
+}
+.form{
+    margin-bottom: 0px;
+}
+.image{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 70px;
+    justify-content: space-between;
+}
+.img{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.img1{
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    margin: 0px;
+}
+.imgp1{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+.text{
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.contain{
+    margin-top: 12.8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+}
+.tab1{
+    width: 100%;
+    height: auto;
+    padding-left:30px; 
+}
+.buttoncontain1{
+    height: 5%;
+    border-bottom: 1px gray solid;
+    width: 1130px;
+}
+
+.buttoncontain1 button{
+    margin-right: 5px;
+}
+.tab1 .buttoncontain1 button{
+    width: auto;
+    height: 100%;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: #7A8082;
+    font-weight: 700;
+}
+.tab1 .buttoncontain1 button:hover{
+    background-color: antiquewhite;
+}
+.tab1 .buttoncontain1 button:hover{
+    color: black;
+}
+.tabpanel1{
+    height: auto;
+    /*background-color: whitesmoke;
+    color: white;*/
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 30px;
+    display: none;
+    margin: 1px;
+}
+.buttoncontain1 button{
+    color: navajow;
+    text-decoration: none;
+}
+/*.buttoncontain a:hover,{
+    color: blue;
+    text-decoration: underline;
+}*/
+.buttoncontain1 button:focus{
+    border-bottom: 2px #007CC2 solid;
+    color: #007CC2;
+}
+.overflow-hidden{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 63%
+}
+.list3{
+    display: flex;
+    list-style: none;
+    overflow:auto;
+    padding: 0px;
+    width: 100%;
+}
+.list-item{
+    padding-right: 3%;
+}
+.last{
+    padding-right: 0px;
+}
+.list-item h3{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 5px 0px 5px 0px;
+    padding: 0px;
+}
+span{
+    font-size: .7rem;
+}
+.contain1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px 20px;
+    padding-left: 25px;
+    margin-top: 25px;
+}
+.section span{
+    font-size: 17px;
+}
+.section h3{
+    margin-bottom: 10px;
+    
+}
